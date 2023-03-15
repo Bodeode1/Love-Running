@@ -59,6 +59,7 @@ h2 {
 height: 600px;
 width: 100%;
 overflow: hidden;
+
 position: relative;
 }
 
@@ -103,7 +104,8 @@ background: url('../images/hero-image.webp') no-repeat center center;
 
     bottom: 30px;
     right: 150px;
-    position: absolute
+
+    position: absolute;
 }
 
 /* Club Ethos */
@@ -119,7 +121,7 @@ background: url('../images/hero-image.webp') no-repeat center center;
 }
 
 #rigt-about {
-     padding-top: 30px;
+    padding-top: 30px;
     width: 33%;
     float: right;
 }
@@ -132,7 +134,7 @@ background: url('../images/hero-image.webp') no-repeat center center;
 hr {
    border: 1px solid #3a3a3a; 
    width: 100%;
-margin: 5px 0;
+    margin: 5px 0;
 }
 .left-about-heading {
     width: 60%;
@@ -151,14 +153,14 @@ margin: 5px 0;
 }
 
 .right-about-heading h2 {
-    text-align: right;
+text-align: right;
 }
 
 .right-about-heading p {
-    text-align: right;
+text-align: right;
 }
 
-#welcome {
+ #welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
@@ -283,4 +285,29 @@ margin: 5px 0;
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
 }
